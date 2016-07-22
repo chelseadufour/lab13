@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+  font-size: 56px;
+  letter-spacing: -0.10em;
+  background-color: #ff9900;
+  padding: 1em; }
+
+ul {
+  list-style-type: none; }
+
+.lollipop {
+  color: #52bf90;
+  font-weight: bold;
+  font-size: 70px; }
+
+.blurt {
+  background-color: #20d0ea;
+  font-family: 'Shrikhand', cursive;
+  padding: 2em; }
+
+.wordings {
+  text-decoration: line-through;
+  font-size: 48px;
+  background-color: #ffe34d;
+  padding: 0.5em; }
+
+li {
+  display: inline; }
+
+.kick {
+  color: red;
+  font-family: 'Slabo 27px', serif;
+  font-size: 24px;
+  font-weight: bold; }
+
+.soccer {
+  background-color: #2670cf;
+  font-size: 32px;
+  font-family: 'Galada', cursive;
+  padding: 0.25em; }
+
+.sports {
+  text-decoration: underline;
+  font-family: Futura; }
+
+div {
+  text-align: center;
+  background-color: #81b0c0;
+  padding: 3em; }
+
+.btn {
+  margin-left: 3em; }
+
+body {
+  background-image: url("stripes.jpg"); }

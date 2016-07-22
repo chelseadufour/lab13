@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Galada|Shrikhand|Slabo+27px" rel="stylesheet">
+    <title>Lab 13 Six Year Old Simulator</title>
+  </head>
+  <body ng-app='sixYearOld' ng-controller='wordController'>
+    <h1>Six Year Old Simulator</h1>
+    <div>
+      <button ng-click='addWord()' type='button' class='btn'>Words</button>
+      <button ng-click='addFunWord()' type='button' class='btn'>Words with Decorations</button>
+      <button ng-click='addPhrase()' type='button' class='btn'>More words</button>
+      <button ng-click='addFunPhrase()' type='button' class='btn'>More words with decorations</button>
+    </div>
+
+
+      <ul>
+        <li ng-repeat="obj in wordArray" class="ng-class : {{obj.decoration}}">  {{obj.word}} </li>
+      </ul>
+    </div>
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <script src="controller.js"></script>
+  </body>
+</html>
